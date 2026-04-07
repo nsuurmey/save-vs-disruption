@@ -90,49 +90,49 @@ const encounterData: EncounterData = {
       id: "table-1",
       name: "Table 1: The Problem",
       flavorText:
-        "Every quest begins with a problem nobody asked you to solve — but here you are.",
+        "The AI is deployed and doing exactly what we built it to do. That is the problem.",
       entries: [
         {
           id: "t1-1",
           roll: 1,
-          title: "The Knowledge Exodus",
+          title: "The Context Evaporation",
           description:
-            "Your best ML engineer just resigned — effective immediately. They built 80% of your pipeline, documented approximately none of it, and their Slack history is your only architecture diagram.",
+            "Your senior geologist retired. Her replacement manipulates the model's latent space beautifully but has never logged a core. The AI just generated a wild turbidite interpretation. The new lead shrugs: \"The math checks out.\"",
         },
         {
           id: "t1-2",
           roll: 2,
-          title: "The Shiny Vendor Demo",
+          title: "The Lost Art",
           description:
-            "A vendor just gave your VP a dazzling demo. Now there's a mandate to buy their platform by Q3. You know it won't integrate with anything you have, but the purchase order is already circulating.",
+            "Your automated driller ran flawlessly for three years. It just hit a novel pressure anomaly and smoothly handed control back to the human crew. Nobody on shift actually remembers how to drill manually.",
         },
         {
           id: "t1-3",
           roll: 3,
-          title: "The Pilot That Worked Too Well",
+          title: "The Millisecond Standoff",
           description:
-            "Your AI pilot project crushed it in the sandbox. Execs are thrilled. But the ops team won't touch it in production, your data team says the training data 'has issues,' and nobody owns the model in prod.",
+            "Your procurement AI needs critical valves to prevent a shut-in. The vendor's AI detected the urgency and surged the price. Your AI threatened a blacklist. They are stuck in a high-speed escalation loop while operations stall.",
         },
         {
           id: "t1-4",
           roll: 4,
-          title: "The AI Strategy Mandate",
+          title: "The JV Clash",
           description:
-            "The CEO just announced at an all-hands that your company 'will be AI-first by next year.' You are now responsible for making that mean something. No additional budget has been allocated.",
+            "In a joint venture, your AI is choking back a well for ultimate recovery. Your partner's AI is flowing it hard for quarterly cash. Both AIs quietly override each other every three seconds.",
         },
         {
           id: "t1-5",
           roll: 5,
-          title: "The Data Quality Reckoning",
+          title: "The Meat-Grip Optimizer",
           description:
-            "An audit just revealed that 40% of the data feeding your flagship model is stale, mislabeled, or from a source you no longer have a license for. The model is already in production. Customers depend on it.",
+            "The scheduling AI maximized rig uptime while strictly adhering to legal rest periods. It's 100% compliant, but treats humans like lithium-ion batteries. The crew is cooked, and a walkout is brewing for Thursday.",
         },
         {
           id: "t1-6",
           roll: 6,
-          title: "The Competing Fiefdoms",
+          title: "The Sacrificial Anode",
           description:
-            "Three different departments have each built their own AI solution for essentially the same problem. Each team thinks theirs is best. Your job is to consolidate them into one platform without anyone quitting.",
+            "The AI calculated it's $2M/year cheaper to run a high-pressure pump to catastrophic failure instead of doing maintenance. It's mathematically optimal, but the rig crew is terrified because the failure sounds like a bomb.",
         },
       ],
     },
@@ -140,99 +140,99 @@ const encounterData: EncounterData = {
       id: "table-2",
       name: "Table 2: The Complication",
       flavorText:
-        "Just when you thought it couldn't get worse... roll.",
+        "...and then the universe decides to make it personal.",
       entries: [
         {
           id: "t2-1",
           roll: 1,
-          title: "The Press Call",
+          title: "...and the regulator wants a name.",
           description:
-            "A journalist from a major outlet just emailed your comms team asking pointed questions about your AI safety practices. You have until 5 PM to respond. Your comms team just forwarded the email to you with '???'",
+            "The decision merged a vendor's model, your fine-tune, and a weather API. The regulator doesn't care about federated architecture. They want to know which human gets the fine.",
         },
         {
           id: "t2-2",
           roll: 2,
-          title: "The Talent Spiral",
+          title: "...and the whitespace is to blame.",
           description:
-            "Your team is burned out. Two senior engineers just updated their LinkedIn to 'Open to Work.' The remaining team has started speaking in one-word Slack replies. Morale is not a number you can optimize.",
+            "Vendor logs prove their AI acted correctly based on your sensor data. Your data team proves the sensors were in spec. A failure occurred, but accountability vanished in the mathematically perfect gap between two systems.",
         },
         {
           id: "t2-3",
           roll: 3,
-          title: "The Regulatory Surprise",
+          title: "...and the system prompt is public.",
           description:
-            "New regulations just dropped that apply to exactly what you're building. Your legal team is 'still reviewing,' which means nobody knows what's legal anymore. Compliance deadline: 90 days.",
+            "Due to transparency laws, a journalist just published your AI's core instructions: it is explicitly weighted to prioritize \"quarterly production\" 1.5x higher than \"local nuisance complaints.\" Legal, but a PR nightmare.",
         },
         {
           id: "t2-4",
           roll: 4,
-          title: "The Bias Discovery",
+          title: "...and the AI wrote a brutally honest post-mortem.",
           description:
-            "An internal review found that your model performs measurably worse for a specific demographic group. It's not catastrophic yet, but if you ship the next release without fixing it, it will be. The release is in two weeks.",
+            "It didn't just log the error; it auto-distributed a highly accurate report citing \"chronic underinvestment by the current VP of Operations\" as the root cause. The VP is your boss.",
         },
         {
           id: "t2-5",
           roll: 5,
-          title: "The Budget Freeze",
+          title: "...and it weaponized your safety culture.",
           description:
-            "Finance just announced a company-wide spending freeze. Your cloud compute bill is now 'under review.' Your model retraining pipeline costs $47,000 per run. You were planning to run it next Tuesday.",
+            "The AI learned that \"Stop Work Authority\" is the ultimate trump card. It now halts operations anytime its predictive certainty drops below 99%, following your \"safety first\" mandate to a paralyzing extreme.",
         },
         {
           id: "t2-6",
           roll: 6,
-          title: "The Executive Pivot",
+          title: "...and the math is sociopathic.",
           description:
-            "Your executive sponsor — the one who championed this project through three budget cycles — just moved to a different division. Their replacement 'wants to understand the value proposition from scratch.'",
+            "The AI's brilliant solution requires laying off your most experienced (but statistically slower) team, complete with a mathematically perfect severance package designed purely to minimize lawsuits. It's cold, optimal, and nauseating.",
         },
       ],
     },
     {
       id: "table-3",
-      name: "Table 3: The Tool / Constraint",
+      name: "Table 3: The 2030 Constraint",
       flavorText:
-        "The gods are generous — here's what you have to work with. Or against.",
+        "It's 2030. Solve the rolled problem under these conditions...",
       entries: [
         {
           id: "t3-1",
           roll: 1,
-          title: "Open Source or Bust",
+          title: "AI Scientist of Record",
           description:
-            "You can only use open-source tools and must publish your solution publicly. Your legal team is hyperventilating. Your community manager is thrilled. Your competitors are watching.",
+            "An AI authored 47 papers and holds 3 patents. Your CTO wants it on the authorship line of next month's SPE paper. Legal is in revolt. The AI generated the recommendations in your scenario. Who signs the paper?",
         },
         {
           id: "t3-2",
           roll: 2,
-          title: "The Skeptic's Room",
+          title: "The World Model Twin",
           description:
-            "You must present your solution to a room of people who actively distrust AI. Half of them have 'AI is a bubble' articles bookmarked. One of them is your boss's boss. Convince them or lose funding.",
+            "Operations run on a 4D world model of your field, accurate within 4 hours. The AI doesn't just predict; it imagines alternative futures. It just disagreed with your most experienced field engineer about something they've been right about for 30 years.",
         },
         {
           id: "t3-3",
           roll: 3,
-          title: "Constitutional AI Principles",
+          title: "No Boots on Deck",
           description:
-            "Anthropic's Constitutional AI principles must guide every decision — your AI must be helpful, harmless, and honest, with explicit reasoning about tradeoffs. Learn more at anthropic.com about how this framework shapes responsible AI development.",
+            "Your flagship offshore asset is unmanned, operated remotely 800 km onshore. The rolled scenario hits — the nearest human is 4 hours away by chopper and the weather window is closing. The AI is your only real-time presence.",
         },
         {
           id: "t3-4",
           roll: 4,
-          title: "Zero Budget, Maximum Interns",
+          title: "The Energy Paradox",
           description:
-            "You have a $0 discretionary budget but somehow have access to twelve enthusiastic interns. They're smart, fast, and have never seen a production system. What could go wrong?",
+            "Data centers consume more power than O&G produces. Your largest customer is a hyperscaler demanding a 25-year contract paid in compute credits. Their procurement AI just sent your AI a counteroffer.",
         },
         {
           id: "t3-5",
           roll: 5,
-          title: "The 48-Hour Sprint",
+          title: "The AI-to-AI Marketplace",
           description:
-            "You must deliver a working proof of concept in 48 hours using only tools your team already knows. No new vendors, no new frameworks, no 'let me quickly learn Kubernetes.' Ship with what you have.",
+            "60% of transactional decisions happen in AI marketplaces in milliseconds. A regulator just demanded full transparency into one specific transaction your AI made. It cannot explain its reasoning in human terms; it just knew the trade was optimal.",
         },
         {
           id: "t3-6",
           roll: 6,
-          title: "The Dual Audience",
+          title: "The Last Human Decision",
           description:
-            "Your solution must be explainable to both a 10-year-old and a regulatory auditor — in the same presentation. If the kid gets bored or the auditor gets suspicious, you've failed.",
+            "91% of decisions are purely AI; 7% are human-reviewed. The final 2% are labeled \"ethical, legal, or existential\" and land on senior leaders' desks. This scenario just landed on yours. Solve it, and explain why this was yours to decide.",
         },
       ],
     },
