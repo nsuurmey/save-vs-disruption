@@ -211,7 +211,7 @@ const encounterData: EncounterData = {
           roll: 3,
           title: "No Boots on Deck",
           description:
-            "Your flagship offshore asset is unmanned, operated remotely 800 km onshore. The rolled scenario hits — the nearest human is 4 hours away by chopper and the weather window is closing. The AI is your only real-time presence.",
+            "Your flagship offshore asset is unmanned, operated remotely 200 km onshore. The rolled scenario hits — the nearest human is 4 hours away by chopper and the weather window is closing. The AI is your only real-time presence.",
         },
         {
           id: "t3-4",
