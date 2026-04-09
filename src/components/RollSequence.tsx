@@ -18,9 +18,7 @@ type Props = {
 type Phase = "rolling" | "result" | "summary";
 
 export default function RollSequence({ round, onRoundComplete }: Props) {
-  const tables = encounterData.tables;
-  // Round 1 skips Table 0; Rounds 2-3 include it
-  const tableSequence = round === 1 ? tables.slice(1) : tables;
+  const tableSequence = encounterData.tables;
 
   const [tableIndex, setTableIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("rolling");
